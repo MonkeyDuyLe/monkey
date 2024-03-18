@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form</title>
+    </head>
+    <body>
+        <form action=" SignIn.php" method="post">
+        <Table border="1">
+            <tr>
+                <td colspan="2">SignIn </td>
+            </tr>
+            <tr>
+                <td colspan="2">Email</td>
+                <td ><input type="text" name="Email"/></td>
+            </tr>
+            <tr>
+                <td colspan="2">PassWord</td>
+                <Td><input type="password"/></Td>
+            </tr>
+            <tr>
+                <td colspan="2"><input type="submit" value="SignIn"/></td>
+            </tr>
+        </Table>
+
+        </form>
+      
+    </body>

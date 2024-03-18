@@ -1,0 +1,56 @@
+<html>
+<head>
+    <title>FORM</title>
+</head>
+<form action="Your Detail.php" method="post">
+    <table border="2">
+        <tr>
+            <td bgcolor="Cyan">
+                <h1>Your Details</h1>
+            </td>
+        </tr>
+        <tr>
+            <td >Name</td>
+            <td>
+                <input type="text" name=" Name" maxlength="20" minlength="10"/>
+            </td>
+        </tr>
+        <tr>
+            <td> Email 
+                <td>
+                    <input type="Email" name="Email"  required/> 
+                 </td>
+            </td>
+            
+        </tr>
+        <tr>
+            
+            <td>Whould you like visit again?
+                <td>
+                    <input id="Yes" type="radio" name="Whould you like visit again?" /> 
+                    <label for="Yes"> Yes </label>
+                    <input id="No" type="radio" name="Whould you like visit again?" /> 
+                    <label for="No"> No </label>
+                    <input id="Maybe" type="radio" name="Whould you like visit again?" /> 
+                    <label for="Maybe"> Maybe </label>
+                </td>
+            </td>
+            
+        </tr>
+        <tr>
+            <td>Comments</td>
+            <td>
+               <textarea></textarea> 
+            </td>
+        </tr>
+        <th>
+            <input type="checkbox" id="Sign" name="Sign"/>
+            <label for="Sign"> Sign me up for Email updates</label><br/>
+        </th>
+        <tr>
+            <td>
+                <input type="submit" value="Submit Review"/>
+            </td>
+        </tr>
+    </table>
+</form>
